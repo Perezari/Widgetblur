@@ -1,7 +1,3 @@
-// Variables used by Scriptable.
-// These must be at the very top of the file. Do not edit.
-// icon-color: yellow; icon-glyph: magic;
-
 // This script was created by Ari.
 
 // The amount of blurring. Default is 150.
