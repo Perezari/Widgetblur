@@ -9,7 +9,7 @@ let blur = 150
  
 // Determine if user has taken the screenshot.
 var message
-message = "Before you start, go to your home screen and enter wiggle mode. Scroll to the empty page on the far right and take a screenshot."
+message = "לפני שנתחיל, גש למסך הבית וכנס למצב גרירה, גרור לדף ריק ובצע צילום מסך."
 let options = ["Continue to select image","Exit to take screenshot","עדכון קוד"]
 let response = await generateAlert(message,options)
 
