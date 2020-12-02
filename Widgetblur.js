@@ -28,7 +28,7 @@ if (response == 2) {
 
   // Try to download the file.
   try {
-    const req = new Request("https://raw.githubusercontent.com/mzeryck/Widget-Blur/main/widget-blur.js")
+    const req = new Request("https://raw.githubusercontent.com/Perezari/Widgetblur/main/Widgetblur.js"")
     const codeString = await req.loadString()
     files.writeString(module.filename, codeString)
     message = "The code has been updated. If the script is open, close it for the change to take effect."
