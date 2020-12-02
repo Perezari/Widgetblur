@@ -10,7 +10,7 @@ let blur = 150
 // Determine if user has taken the screenshot.
 var message
 message = "לפני שנתחיל, גש למסך הבית וכנס למצב גרירה, גרור לדף ריק ובצע צילום מסך."
-let options = ["Continue to select image","Exit to take screenshot","עדכון קוד"]
+let options = ["קודם אבצע צילום מסך","Exit to take screenshot","עדכון קוד"]
 let response = await generateAlert(message,options)
 
 // Return if we need to exit.
