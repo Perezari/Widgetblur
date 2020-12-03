@@ -1,6 +1,6 @@
 var version =  1.1
 
-// This script was created by Ari.
+// This script was created by Ari perez.
 
 // The amount of blurring. Default is 150.
 let blur = 150
