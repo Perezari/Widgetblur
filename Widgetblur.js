@@ -1,3 +1,5 @@
+var version =  1.1
+
 // This script was created by Ari.
 
 // The amount of blurring. Default is 150.
@@ -6,7 +8,7 @@ let blur = 150
 // Determine if user has taken the screenshot.
 var message
 message = "לפני שנתחיל, גש למסך הבית וכנס למצב גרירה, גרור לדף ריק ובצע צילום מסך."
-let options = ["קודם אבצע צילום מסך","Exit to take screenshot","עדכון קוד"]
+let options = ["בחר צילום מסך","צא וצלם את המסך","עדכון קוד"]
 let response = await generateAlert(message,options)
 
 // Return if we need to exit.
@@ -27,7 +29,7 @@ if (response == 2) {
     const req = new Request("https://raw.githubusercontent.com/Perezari/Widgetblur/main/Widgetblur.js")
     const codeString = await req.loadString()
     files.writeString(module.filename, codeString)
-    message = "The code has been updated. If the script is open, close it for the change to take effect."
+    message = "הקוד עודכן, צא מהסקריפט וכנס שוב לראות את העדכונים."
   } catch {
     message = "The update failed. Please try again later."
   }
